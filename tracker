@@ -1,0 +1,109 @@
+import csv
+
+with open('C:\\Users\\devashishpoudel\\Desktop\\PP\\Tracker.csv') as csv_file:
+    csv_reader = csv.reader(csv_file, delimiter = ',')
+    line_count = 0
+    PP = 0
+    PH = 0
+    P = 0
+    CO = 0
+    CA = 0
+    ONOF = 0
+    MAC = 0
+    CMTS = 0
+    SAC = 0
+    Fallout = 0
+    RX = 0
+    I = 0
+    WH = 0
+    NIA = 0
+    SDP = 0
+    DEC = 0
+    LIC = 0
+    MT = 0
+    OUT = 0
+    MDU = 0
+    TAP = 0
+    BT = 0
+    TR = 0
+    TX = 0
+    NN = 0
+    for row in csv_reader:
+        if line_count == 0:
+            print('Column names are:' + ','.join(row))
+            line_count += 1
+
+        else:
+            print(row[4] + ' is ' + row[6] + ' because of ' + row[8])
+
+        if row[6] == 'In Progress':
+            P += 1
+        elif row[6] == 'In Progress-Pending':
+            PP += 1
+        elif row[6] == 'In Progress-Held':
+            PH += 1
+        elif row[6] == 'Complete':
+            CO += 1
+        elif row[6] == 'Cancelled':
+            CA += 1
+        
+    
+    
+           
+       
+    
+        if row[8] in ('FT unable to ON NHAS/NHUR Job','FT unable to OFF NHAS/NHUR Job'):
+               ONOF +=1
+        elif row[8] == 'FT unable to Push MAC address/Manually activated':
+               MAC +=1
+        elif row[8] in ('CMTS /S-C tags Mismatch' , 'Offline ranging completed/DHCPV6'):
+               CMTS +=1
+        elif row[8] == 'No SAC account /Partially SAC built':
+               SAC +=1
+        elif row[8] == 'Incorrect fallout stage (apart from call back Request)':
+               Fallout += 1
+        elif row[8] == 'NTD Status fails for CM US TX/SNR':
+               TX += 1
+        elif row[8] == 'NTD Status fails for CM DS RX':
+               RX += 1
+        elif row[8] == 'Information Call':
+               I += 1
+        elif row[8] == 'Weather/Hazard':
+               WH += 1
+        elif row[8] == 'EU NIA/Pre-call/Permission Required/Private Technician':
+               NIA +=1
+        elif row[8] == 'SDP NRA/Skill issue/Time Constraint':
+               SDP +=1
+        elif row[8] == 'EU Declined/Incorrect Address':
+               DEC += 1
+        elif row[8] in ('LIC Complex Major Civils Quote', 'New LIC Civils turf/concrete/paving/bitumen','Repair LIC Civils turf/concrete/paving/bitumen/turf' , 'Unblock LIC Civils turf/concrete/paving/bitumen/turf'):
+               LIC += 1
+        elif row[8] in ('Missing Aerial Tap', 'Missing Underground Tap or Pit'):
+               MT += 1
+        elif row[8] == 'NBN Planned/ Power Outage':
+               OUT += 1
+        elif row[8] == ('No Lateral Cable MDU', 'No Network - MDU / Commercial Building'):
+               MDU += 1
+        elif row[8] == 'No Network - Whole street':
+               NN += 1
+        elif row[8] in ('Signal Issues at Tap', 'No Signal at Tap', 'Tap Upgrade', 'Other Tap Down Issue', 'Other Tap Up Issue'):
+               TAP += 1
+        elif row[8] == 'Bucket Truck Required':
+               BT += 1
+        elif row[8] == 'Simple/Complex Traffic Management':
+               TR += 1
+                 
+
+        
+
+    print('\n\nCancelled:' + str(CA) + '\nCompleted:' + str(CO) + '\nIn Progress:' + str(P) + '\nIn Progress-Pending:' + str(PP) + '\nIn Progress-Held:' + str(PH))
+    print('\n\nOnsiting and Offsiting Issue:' + str(ONOF) + '\nFT unable to push MAC:' + str(MAC) + '\nCMTS Tag or other issue:' + str(CMTS) + '\nSAC:' + str(SAC)\
+          + '\nIncorrect Fallout:' + str(Fallout) + '\nUS Signal Issue:' + str(TX) + '\nDS Signal Issue:' + str(RX)\
+          + '\nInformation Call:' + str(I) + '\nWeather/Hazard:' + str(WH) + '\nNIA/Precall/Permission/Private Tech:' + str(NIA)\
+          + '\nSDP ISSUE:' + str(SDP) + '\nEU Declined or Incorrect Address:' + str(DEC) + '\nLIC issue:' + str(LIC)\
+          + '\nMissing Tap:' + str(MT) + '\nOutage:' + str(OUT) + '\nMDU issue:' + str(MDU) + '\nNo network:' + str(NN) + '\nSignal issues at tap or tap upgrade'\
+          + str(TAP) + '\nBucket Truck:' + str(BT)  + '\nTraffic Management' + str(TR))
+   
+            
+
+    
