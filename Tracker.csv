@@ -1,0 +1,30 @@
+Date,Agent Name,P WOR ID,C WOR ID,Order ID,Order Type,Order Status,Triage Transferred,Disposition,Notes
+24/09/2018,Devashish Poudel,WOR700026118019,WOR700026118026,ORD420014723199,NHAS,In Progress,Yes,LIC Complex Major Civils Quote,Civils required. Transferred to triage.
+24/09/2018,Devashish Poudel,WOR700026077967,WOR700026077979,ORD420014146221,NHAS,In Progress-Pending,No,EU Declined/Incorrect Address,EU declined NBN connection.
+24/09/2018,Devashish Poudel,WOR700023099931,WOR700023099949,ORD400001367736,NHUR,Complete,No,FT unable to OFF NHAS/NHUR Job,Tech called to provide readings; offsited and completed the order.
+24/09/2018,Devashish Poudel,WOR700026130971,WOR700026130985,ORD410000829202,NHAS,Complete,No,FT unable to OFF NHAS/NHUR Job,Tech called in for activation; offsited and completed the order.
+24/09/2018,Devashish Poudel,WOR700022279264,WOR700022279272,ORD420013250225,NHAS,In Progress,Yes,Tap Upgrade,Tap full. Transferred to triage.
+24/09/2018,Devashish Poudel,WOR700026060587,WOR700026060594,ORD400001463432,NHAS,In Progress,Yes,LIC Complex Major Civils Quote,Civils required. Transferred to triage.
+24/09/2018,Devashish Poudel,WOR700025051311,WOR700025051324,ORD420014294131,NHAS,In Progress-Pending,No,EU NIA/Pre-call/Permission Required/Private Technician,Tech called saying he completed the job last week and wanted to close off the job; could not provide the MAC address; checked notes from previous advisor to confirm MAC; ran the test which was failing; tech then wanted to close off the job as NIA.
+24/09/2018,Devashish Poudel,WOR700025556254,WOR700025891536,ORD420013862733,NHAS,Complete,No,FT unable to Push MAC address/Manually activated,Tech called in for activation; pushed the MAC; offsited and completed the order.
+24/09/2018,Devashish Poudel,WOR700026134615,WOR700026134627,ORD420014727698,NHAS,In Progress-Pending,No,EU NIA/Pre-call/Permission Required/Private Technician,Precall cancellation.
+24/09/2018,Devashish Poudel,WOR700025269061,WOR700025269074,ORD420014068009,NHAS,Complete,No,FT unable to Push MAC address/Manually activated,Tech called in for activation; updated SRI and SAC; ran the test; offsited and completed the order.
+24/09/2018,Devashish Poudel,WOR700025970411,WOR700025970424,ORD420014620245,NHAS,Complete,No,FT unable to Push MAC address/Manually activated,Tech called in for activation; manually updated SAC and SRI; asked FT to run ethernet conn test; advised him to leave the ntd online and move on to the next job.
+24/09/2018,Devashish Poudel,WOR700026004179,WOR700026004180,ORD410000827925,NHAS,Complete,No,FT unable to OFF NHAS/NHUR Job,Tech called in for offsiting; order was already completed; ran the test which was passing; offsited the tech.
+24/09/2018,Devashish Poudel,WOR700026118396,WOR700026118401,ORD420014723264,NHAS,Complete,No,FT unable to OFF NHAS/NHUR Job,Tech called in for activation; offsited and completed the order.
+24/09/2018,Devashish Poudel,WOR700025553596,WOR700025553605,ORD420014203530,NHAS,In Progress-Pending,No,EU Declined/Incorrect Address,EU declined NBN connection.
+24/09/2018,Devashish Poudel,WOR700023814391,WOR700023814406,ORD420013835623,NHAS,Complete,No,FT unable to OFF NHAS/NHUR Job,Tech called in for activation; offsited and completed the order.
+24/09/2018,Devashish Poudel,WOR700025582889,WOR700025582891,ORD420014511711,NHAS,In Progress,Yes,No Network - MDU / Commercial Building,Tap missing in MDU. Transferred to triage
+24/09/2018,Devashish Poudel,WOR700025981008,WOR700025981012,ORD420014661503,NHAS,In Progress-Pending,No,EU NIA/Pre-call/Permission Required/Private Technician,EU NIA.
+24/09/2018,Devashish Poudel,WOR700026301496,WOR700026301514,ORD420014721634,NHAS,Complete,No,FT unable to OFF NHAS/NHUR Job,Tech called in for activation; offsited THE TECH; order was already complete.
+24/09/2018,Devashish Poudel,WOR700026001879,WOR700026001880,ORD400001459346,NHAS,In Progress,Yes,New LIC Civils turf/concrete/paving/bitumen,civils required. Transferred to triage.
+24/09/2018,Devashish Poudel,WOR700026343193,WOR700026343206,ORD420014801998,NHAS,Complete,No,NTD Status fails for CM US TX/SNR,Tech called in for activation; ntd was out of threshold; asked him to use 3 dB attenuator; test passed; offsited and completed the order.
+24/09/2018,Devashish Poudel,WOR700026145162,WOR700026145170,ORD420014729919,NHAS,In Progress,No,FT unable to ON NHAS/NHUR Job,Tech called to get onsited.
+24/09/2018,Devashish Poudel,WOR700025894994,WOR700025895007,ORD420014623071,NHAS,In Progress,Yes,No Lateral Cable MDU,No lateral cable in MDU. Trasnferred to triage.
+24/09/2018,Devashish Poudel,WOR700021255819,WOR700021781829,ORD410000578020,NHAS,In Progress-Pending,No,EU NIA/Pre-call/Permission Required/Private Technician,Precall cancellation.
+24/09/2018,Devashish Poudel,WOR700025928230,WOR700025928248,ORD420014629644,NHAS,In Progress-Pending,No,EU NIA/Pre-call/Permission Required/Private Technician,Body corp permission required.
+24/09/2018,Devashish Poudel,WOR700026408040,WOR700026408055,ORD420014810764,NHAS,In Progress-Pending,No,EU NIA/Pre-call/Permission Required/Private Technician,EU NIA.
+24/09/2018,Devashish Poudel,WOR700026045795,WOR700026045805,ORD420014694724,NHAS,In Progress-Pending,No,EU NIA/Pre-call/Permission Required/Private Technician,EU NIA.
+24/09/2018,Devashish Poudel,WOR700025644552,WOR700026312837,ORD420014521612,NHAS,In Progress,No,Information Call,Tech called to get an update. Advised him to check back tomorrow for the update
+24/09/2018,Devashish Poudel,WOR700026300478,WOR700026300484,ORD400001466313 ,NHUR,Complete,No,FT unable to OFF NHAS/NHUR Job,Tech called to provide readings. Offsited and completed the order. NBN ref ID missing 3 at the end. Fixed in WRQ.
+24/09/2018,Devashish Poudel,WOR700026302931,WOR700026302949,ORD400001466954,NHUR,Complete,No,FT unable to OFF NHAS/NHUR Job,Tech called to provide readings. Offsited and completed the order. 
